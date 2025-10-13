@@ -6,11 +6,12 @@
 }
 
 body {
-    /* Mengganti font untuk kesan yang berbeda */
+    /* Menggunakan font Roboto */
     font-family: 'Roboto', sans-serif; 
     line-height: 1.6;
-    background-color: #f8fcf8; /* Warna latar belakang sangat terang */
-    color: #333;
+    /* WARNA LATAR BELAKANG UTAMA BARU: Abu-abu Gelap (Dark Mode Look) */
+    background-color: #121212; 
+    color: #e0e0e0; /* Warna teks menjadi putih/abu-abu terang */
 }
 
 .container {
@@ -20,12 +21,12 @@ body {
     padding: 20px 0;
 }
 
-/* Header & Navigasi - Menggunakan Ungu Tua */
+/* Header & Navigasi - Tetap Ungu Tua */
 header {
     background-color: #512da8; /* Ungu Tua */
     color: white;
     padding: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); /* Shadow lebih menonjol di dark mode */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -94,16 +95,17 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
-/* Kontak Section - Menggunakan latar belakang Ungu Muda */
+/* Kontak Section - Menggunakan latar belakang Abu-abu Terang */
 .kontak {
-    background-color: #ede7f6; /* Ungu Sangat Muda */
+    background-color: #1f1f1f; /* Abu-abu Gelap Sedikit Lebih Terang */
     padding: 60px 0;
     text-align: center;
+    color: #e0e0e0;
 }
 
 .kontak h3 {
     font-size: 2.5em;
-    color: #512da8;
+    color: #cddc39; /* Heading berwarna accent */
     margin-bottom: 10px;
 }
 
@@ -112,7 +114,7 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
-/* Tombol WhatsApp (Tetap Hijau, tetapi bisa disesuaikan dengan skema warna) */
+/* Tombol WhatsApp */
 .whatsapp-button {
     display: inline-block;
     background-color: #4caf50; /* Hijau Standar */
