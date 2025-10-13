@@ -1,0 +1,141 @@
+/* Reset Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Font berbeda */
+    line-height: 1.6;
+    background-color: #f7f7f7; /* Latar Belakang lebih terang */
+    color: #212121;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Warna Dasar: Oranye Tua (#E65100) dan Oranye Terang (#FF9800) */
+
+/* Header & Navigasi */
+header {
+    background-color: #E65100; /* Oranye Tua */
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: 900; /* Lebih Tebal */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #FF9800; /* Oranye Terang */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #FF9800; /* Oranye Terang */
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.harga-mulai {
+    font-size: 1.6em;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.harga-utama {
+    font-size: 5em;
+    font-weight: 900;
+    color: #CDDC39; /* Hijau Limau Cerah */
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+/* Kontak Section */
+.kontak {
+    background-color: #fff3e0; /* Oranye Sangat Muda */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.kontak h3 {
+    font-size: 2.8em;
+    color: #E65100;
+    margin-bottom: 15px;
+}
+
+.kontak p {
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366; /* Hijau WhatsApp */
+    color: white;
+    padding: 18px 40px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 60px;
+    font-size: 1.3em;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #E65100; /* Oranye Tua */
+    color: #ffcc80;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 1em;
+}
