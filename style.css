@@ -6,10 +6,11 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif; /* Font berbeda */
+    /* Mengganti font untuk kesan yang berbeda */
+    font-family: 'Roboto', sans-serif; 
     line-height: 1.6;
-    background-color: #f7f7f7; /* Latar Belakang lebih terang */
-    color: #212121;
+    background-color: #f8fcf8; /* Warna latar belakang sangat terang */
+    color: #333;
 }
 
 .container {
@@ -19,14 +20,12 @@ body {
     padding: 20px 0;
 }
 
-/* Warna Dasar: Oranye Tua (#E65100) dan Oranye Terang (#FF9800) */
-
-/* Header & Navigasi */
+/* Header & Navigasi - Menggunakan Ungu Tua */
 header {
-    background-color: #E65100; /* Oranye Tua */
+    background-color: #512da8; /* Ungu Tua */
     color: white;
-    padding: 15px 0;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -39,8 +38,8 @@ header .container {
 }
 
 header h1 {
-    font-size: 2em;
-    font-weight: 900; /* Lebih Tebal */
+    font-size: 1.8em;
+    font-weight: 700;
 }
 
 nav ul {
@@ -51,91 +50,91 @@ nav ul {
 nav ul li a {
     color: white;
     text-decoration: none;
-    margin-left: 25px;
-    padding: 8px 12px;
+    margin-left: 20px;
+    padding: 5px 10px;
     transition: background-color 0.3s;
-    border-radius: 4px;
 }
 
 nav ul li a:hover {
-    background-color: #FF9800; /* Oranye Terang */
+    background-color: #673ab7; /* Ungu Lebih Cerah */
+    border-radius: 4px;
 }
 
-/* Hero Section */
+/* Hero Section - Menggunakan Ungu Cerah */
 .hero {
-    background-color: #FF9800; /* Oranye Terang */
+    background-color: #673ab7; /* Ungu Cerah */
     color: white;
-    padding: 120px 0;
+    padding: 100px 0;
     text-align: center;
 }
 
 .hero h2 {
-    font-size: 3.5em;
-    margin-bottom: 15px;
-    font-weight: 900;
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .hero p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-bottom: 30px;
 }
 
 .harga-mulai {
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: 400;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 0;
 }
 
 .harga-utama {
-    font-size: 5em;
-    font-weight: 900;
-    color: #CDDC39; /* Hijau Limau Cerah */
+    font-size: 4em;
+    font-weight: 700;
+    color: #cddc39; /* Hijau Muda Cerah (Accent Android) */
     margin-top: 5px;
     margin-bottom: 30px;
 }
 
-/* Kontak Section */
+/* Kontak Section - Menggunakan latar belakang Ungu Muda */
 .kontak {
-    background-color: #fff3e0; /* Oranye Sangat Muda */
-    padding: 80px 0;
+    background-color: #ede7f6; /* Ungu Sangat Muda */
+    padding: 60px 0;
     text-align: center;
 }
 
 .kontak h3 {
-    font-size: 2.8em;
-    color: #E65100;
-    margin-bottom: 15px;
+    font-size: 2.5em;
+    color: #512da8;
+    margin-bottom: 10px;
 }
 
 .kontak p {
-    font-size: 1.3em;
-    margin-bottom: 40px;
+    font-size: 1.2em;
+    margin-bottom: 30px;
 }
 
+/* Tombol WhatsApp (Tetap Hijau, tetapi bisa disesuaikan dengan skema warna) */
 .whatsapp-button {
     display: inline-block;
-    background-color: #25d366; /* Hijau WhatsApp */
+    background-color: #4caf50; /* Hijau Standar */
     color: white;
-    padding: 18px 40px;
+    padding: 15px 35px;
     text-decoration: none;
-    font-weight: 700;
-    border-radius: 60px;
-    font-size: 1.3em;
+    font-weight: 600;
+    border-radius: 50px;
+    font-size: 1.2em;
     transition: background-color 0.3s, transform 0.3s;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .whatsapp-button:hover {
-    background-color: #128c7e;
+    background-color: #388e3c; /* Hijau Lebih Gelap */
     transform: scale(1.05);
 }
 
 /* Footer */
 footer {
-    background-color: #E65100; /* Oranye Tua */
-    color: #ffcc80;
-    padding: 25px 0;
+    background-color: #512da8;
+    color: #e8eaf6;
+    padding: 20px 0;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.9em;
 }
