@@ -9,9 +9,9 @@ body {
     /* Font tetap Roboto */
     font-family: 'Roboto', sans-serif; 
     line-height: 1.6;
-    /* WARNA LATAR BELAKANG UTAMA: Sangat Terang (Putih Bersih) */
+    /* WARNA LATAR BELAKANG UTAMA: Putih Bersih */
     background-color: #ffffff; 
-    color: #333333; /* Warna teks gelap */
+    color: #333333; /* Warna teks menjadi gelap */
 }
 
 .container {
@@ -21,9 +21,9 @@ body {
     padding: 20px 0;
 }
 
-/* Header & Navigasi - Menggunakan Hijau Tua */
+/* Header & Navigasi - Menggunakan Biru Profesional */
 header {
-    background-color: #1b5e20; /* Hijau Tua */
+    background-color: #007bff; /* Biru Cerah (Primary Blue) */
     color: white;
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -57,30 +57,30 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #388e3c; /* Hijau Lebih Cerah saat hover */
+    background-color: #0056b3; /* Biru Lebih Gelap saat hover */
     border-radius: 4px;
 }
 
-/* Hero Section - Menggunakan Hijau Cerah (Accent) */
+/* Hero Section - Menggunakan Latar Belakang Biru Muda/Terang */
 .hero {
-    background-color: #e8f5e9; /* Hijau Sangat Muda */
+    background-color: #e9f5ff; /* Biru Sangat Muda */
     color: #333333;
     padding: 100px 0;
     text-align: center;
-    border-bottom: none;
+    border-bottom: 3px solid #007bff;
 }
 
 .hero h2 {
     font-size: 3em;
     margin-bottom: 15px;
     font-weight: 700;
-    color: #388e3c; /* Teks utama berwarna Hijau */
+    color: #007bff; /* Judul berwarna Biru */
 }
 
 .hero p {
     font-size: 1.2em;
     margin-bottom: 30px;
-    color: #555555; /* Teks deskripsi gelap */
+    color: #666666; /* Teks deskripsi abu-abu gelap */
 }
 
 .harga-mulai {
@@ -93,24 +93,23 @@ nav ul li a:hover {
 .harga-utama {
     font-size: 4.5em; 
     font-weight: 900;
-    color: #4caf50; /* HIJAU UTAMA! */
-    text-shadow: none;
+    color: #28a745; /* Aksen Hijau Cerah */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     margin-top: 5px;
     margin-bottom: 30px;
 }
 
 /* Kontak Section - Area Panggilan Aksi */
 .kontak {
-    background-color: #f5f5f5; /* Abu-abu terang untuk kontras */
+    background-color: #f8f9fa; /* Abu-abu Sangat Terang */
     padding: 60px 0;
     text-align: center;
     color: #333333;
-    border-top: 1px solid #e0e0e0;
 }
 
 .kontak h3 {
     font-size: 2.5em;
-    color: #1b5e20; /* Heading berwarna Hijau Tua */
+    color: #007bff; /* Heading berwarna Biru */
     margin-bottom: 10px;
 }
 
@@ -122,7 +121,7 @@ nav ul li a:hover {
 /* Tombol WhatsApp */
 .whatsapp-button {
     display: inline-block;
-    background-color: #4caf50; /* Hijau Standar */
+    background-color: #28a745; /* Hijau Cerah (Accent) */
     color: white;
     padding: 15px 35px;
     text-decoration: none;
@@ -130,19 +129,19 @@ nav ul li a:hover {
     border-radius: 50px;
     font-size: 1.2em;
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow standar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .whatsapp-button:hover {
-    background-color: #388e3c; /* Hijau Lebih Gelap saat hover */
+    background-color: #1e7e34; /* Hijau Lebih Gelap saat hover */
     transform: scale(1.05);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
 }
 
 /* Footer */
 footer {
-    background-color: #1b5e20; /* Hijau Tua */
-    color: #c8e6c9;
+    background-color: #007bff; /* Biru Primary */
+    color: white;
     padding: 20px 0;
     text-align: center;
     font-size: 0.9em;
