@@ -21,9 +21,9 @@ body {
     padding: 20px 0;
 }
 
-/* Header & Navigasi - Menggunakan Hijau Tua (Dark Green) */
+/* Header & Navigasi - Menggunakan Hijau Gelap sebagai latar */
 header {
-    background-color: #2e7d32; /* Hijau Gelap */
+    background-color: #1a7a28; /* Hijau Gelap Primer */
     color: white;
     padding: 15px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -58,7 +58,7 @@ header h1 {
 }
 
 .navbar nav ul li a:hover {
-    background-color: #1b5e20; /* Hijau Lebih Gelap saat hover */
+    background-color: #0d4a15; /* Hijau Lebih Gelap saat hover */
     border-radius: 4px;
 }
 
@@ -103,7 +103,7 @@ header h1 {
         width: 100%;
         height: 0;
         overflow: hidden;
-        background-color: #2e7d32; /* Hijau Gelap */
+        background-color: #1a7a28; /* Hijau Gelap Primer */
         transition: height 0.3s ease-in-out;
     }
 
@@ -136,20 +136,20 @@ header h1 {
 /* =================================================== */
 
 
-/* Hero Section - Menggunakan Latar Belakang Hijau Muda/Terang */
+/* Hero Section - Menggunakan Latar Belakang Hijau Sangat Cerah */
 .hero {
-    background-color: #e8f5e9; /* Hijau Sangat Muda */
+    background-color: #e6ffec; /* Hijau Paling Muda */
     color: #333333;
     padding: 100px 0;
     text-align: center;
-    border-bottom: 3px solid #4caf50; /* Hijau Utama */
+    border-bottom: 3px solid #76ff03; /* Hijau Cerah Aksen */
 }
 
 .hero h2 {
     font-size: 3em;
     margin-bottom: 15px;
     font-weight: 700;
-    color: #4caf50; /* Judul berwarna Hijau */
+    color: #43a047; /* Judul berwarna Hijau Gelap agar mudah dibaca */
 }
 
 .hero p {
@@ -168,7 +168,7 @@ header h1 {
 .harga-utama {
     font-size: 4.5em; 
     font-weight: 900;
-    color: #ff9800; /* Aksen Jingga/Kuning (Kontras dengan Hijau) */
+    color: #ffc107; /* Aksen Kuning Emas (Kontras tinggi) */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     margin-top: 5px;
     margin-bottom: 30px;
@@ -176,7 +176,7 @@ header h1 {
 
 /* Kontak Section - Area Panggilan Aksi */
 .kontak {
-    background-color: #f1f8e9; /* Abu-abu Hijau Sangat Terang */
+    background-color: #f0fff4; /* Latar Belakang kontak */
     padding: 60px 0;
     text-align: center;
     color: #333333;
@@ -184,7 +184,8 @@ header h1 {
 
 .kontak h3 {
     font-size: 2.5em;
-    color: #4caf50; /* Heading berwarna Hijau */
+    color: #76ff03; /* Heading berwarna Hijau Cerah */
+    text-shadow: 0 0 5px rgba(118, 255, 3, 0.5); /* Efek glow ringan */
     margin-bottom: 10px;
 }
 
@@ -196,26 +197,26 @@ header h1 {
 /* Tombol WhatsApp */
 .whatsapp-button {
     display: inline-block;
-    background-color: #25d366; /* Hijau WhatsApp */
-    color: white;
+    background-color: #76ff03; /* Hijau Cerah Aksen */
+    color: #1a7a28; /* Teks berwarna hijau gelap */
     padding: 15px 35px;
     text-decoration: none;
     font-weight: 700;
     border-radius: 50px;
     font-size: 1.2em;
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(118, 255, 3, 0.5); /* Efek Shadow Cerah */
 }
 
 .whatsapp-button:hover {
-    background-color: #128c7e; /* Hijau Lebih Gelap saat hover */
+    background-color: #5cb800; /* Hijau Lebih Gelap saat hover */
     transform: scale(1.05);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0 6px 20px rgba(118, 255, 3, 0.8); 
 }
 
 /* Footer */
 footer {
-    background-color: #2e7d32; /* Hijau Gelap */
+    background-color: #1a7a28; /* Hijau Gelap Primer */
     color: white;
     padding: 20px 0;
     text-align: center;
